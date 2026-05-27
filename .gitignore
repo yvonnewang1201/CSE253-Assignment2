@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Preprocessed data (large binary files)
+processed/
+
+# Raw dataset (large, download separately)
+maestro-v3.0.0/
+maestro-v3.0.0-midi.zip
+maestro-v3.0.0.csv
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
