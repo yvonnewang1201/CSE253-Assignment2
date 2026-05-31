@@ -3,8 +3,14 @@ venv/
 
 # Preprocessed data (large binary files)
 processed/
+processed_pop909/
+evaluation_pop909/
+generated_pop909/
+checkpoints/
+smoke_pop909/
 
 # Raw dataset (large, download separately)
+data/
 maestro-v3.0.0/
 maestro-v3.0.0-midi.zip
 maestro-v3.0.0.csv
