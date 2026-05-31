@@ -1,0 +1,75 @@
+{
+  "perplexity": {
+    "Our LSTM": 10.695095676871999,
+    "Uniform": 388.0000000026543,
+    "Unigram": 71.08177229501533,
+    "Bigram (Markov)": 40.454915301793
+  },
+  "nll": {
+    "Our LSTM": 2.36978528843844,
+    "Uniform": 5.961005339630114,
+    "Unigram": 4.263830936782802,
+    "Bigram (Markov)": 3.7001881516175916
+  },
+  "js_divergence": {
+    "Our LSTM": {
+      "pitch_classes": 0.012835289628464915,
+      "durations_ms": 0.040133326217351425,
+      "iois_ms": 0.03448804213012227
+    },
+    "Bigram (Markov)": {
+      "pitch_classes": 0.005840477507287573,
+      "durations_ms": 0.43627464527661,
+      "iois_ms": 0.13168407094269885
+    },
+    "Unigram": {
+      "pitch_classes": 0.007558315792708537,
+      "durations_ms": 0.3142551673909212,
+      "iois_ms": 0.09354201691623512
+    },
+    "Uniform": {
+      "pitch_classes": 0.006863518137925811,
+      "durations_ms": 0.5203986424821878,
+      "iois_ms": 0.3950446594799009
+    }
+  },
+  "scalar_features": {
+    "Real (test)": {
+      "note_density": 9.727762008466732,
+      "polyphony": 1.8181997880474945,
+      "avg_notes": 91.58156028368795,
+      "distinct4_ratio": 0.9818457623801136
+    },
+    "Our LSTM": {
+      "note_density": 11.094643844954694,
+      "polyphony": 1.5721775251127037,
+      "avg_notes": 191.5625,
+      "distinct4_ratio": 0.957174835061263
+    },
+    "Bigram (Markov)": {
+      "note_density": 3.6883876129573014,
+      "polyphony": 42.49499585558921,
+      "avg_notes": 250.625,
+      "distinct4_ratio": 0.9985862393967955
+    },
+    "Unigram": {
+      "note_density": 6.562972714551334,
+      "polyphony": 23.70899844046799,
+      "avg_notes": 193.25,
+      "distinct4_ratio": 0.9945805843543827
+    },
+    "Uniform": {
+      "note_density": 2.7098422844764345,
+      "polyphony": 51.620647804274796,
+      "avg_notes": 345.0,
+      "distinct4_ratio": 0.9994698397737983
+    }
+  },
+  "config": {
+    "n_gen": 16,
+    "gen_len": 1000,
+    "seed_len": 64,
+    "top_k": 20,
+    "temperature": 1.0
+  }
+}
