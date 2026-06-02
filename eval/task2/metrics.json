@@ -1,0 +1,68 @@
+{
+  "perplexity": {
+    "Unconditional GRU": 2.255355945499004,
+    "Chord GRU (ours)": 2.2445774793176727,
+    "Chord Transformer (ours)": 2.2470168639315866,
+    "Unigram (no chord)": 6.270318117239198,
+    "Chord-tone rule": 7.156991124535802
+  },
+  "chord_tone_ratio": {
+    "Chord Transformer (ours)": 0.5221803055402342,
+    "Chord GRU (ours)": 0.4770417470296112,
+    "Unconditional GRU": 0.2504699937156781,
+    "Chord-tone rule": 0.8834852486712491,
+    "Unigram (no chord)": 0.24642371374182517
+  },
+  "real_chord_tone_ratio": 0.42694708958186817,
+  "js_divergence": {
+    "Chord Transformer (ours)": {
+      "pc": 0.03656179950297293,
+      "interval": 0.012648900509957244,
+      "bar": 0.010628470563692469
+    },
+    "Chord GRU (ours)": {
+      "pc": 0.027170789579251172,
+      "interval": 0.01848423842657491,
+      "bar": 0.006628918680055535
+    },
+    "Unconditional GRU": {
+      "pc": 0.13976684821783572,
+      "interval": 0.020187509509898068,
+      "bar": 0.007812620007533324
+    },
+    "Chord-tone rule": {
+      "pc": 0.05433613101781484,
+      "interval": 0.22289791520358407,
+      "bar": 0.07977734899864303
+    },
+    "Unigram (no chord)": {
+      "pc": 0.09592537162919745,
+      "interval": 0.256398186269733,
+      "bar": 0.08677917770299026
+    }
+  },
+  "rest_ratio": {
+    "Chord Transformer (ours)": 0.22412109375,
+    "Chord GRU (ours)": 0.271484375,
+    "Unconditional GRU": 0.6482747395833334,
+    "Chord-tone rule": 0.33447265625,
+    "Unigram (no chord)": 0.3204752604166667
+  },
+  "onset_density": {
+    "Chord Transformer (ours)": 0.34912109375,
+    "Chord GRU (ours)": 0.3273111979166667,
+    "Unconditional GRU": 0.09033203125,
+    "Chord-tone rule": 0.21142578125,
+    "Unigram (no chord)": 0.22216796875
+  },
+  "real": {
+    "chord_tone_ratio": 0.42694708958186817,
+    "rest_ratio": 0.3038736979166667,
+    "onset_density": 0.24576822916666666
+  },
+  "config": {
+    "n_eval": 96,
+    "decoding": "top_k",
+    "top_k": 8
+  }
+}
